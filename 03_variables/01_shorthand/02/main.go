@@ -18,5 +18,6 @@ func main() {
 	fmt.Printf("%T \n", d)
 	fmt.Printf("%T \n", e)
 	fmt.Printf("%T \n", f)
+	// 타입이 int32 로 나온다.
 	fmt.Printf("%T \n", g)
 }
