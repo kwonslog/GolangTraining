@@ -9,6 +9,7 @@ func main() {
 		"Jenny": "Bonjour!",
 	}
 
+	// 맵에 값을 추가한다.
 	myGreeting["Harleen"] = "Howdy"
 
 	fmt.Println(myGreeting)

@@ -12,6 +12,9 @@ func main() {
 	}
 
 	fmt.Println(myGreeting)
+
+	// 키가 "two" 인 항목을 제거한다.
 	delete(myGreeting, "two")
+
 	fmt.Println(myGreeting)
 }

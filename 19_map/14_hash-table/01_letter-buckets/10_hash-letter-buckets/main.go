@@ -14,6 +14,8 @@ func main() {
 		log.Fatal(err)
 	}
 
+	// 이 코드는 단어의 첫글자를 카운팅해서 출력하는 예제이다.
+
 	// scan the page
 	scanner := bufio.NewScanner(res.Body)
 	defer res.Body.Close()

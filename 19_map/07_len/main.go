@@ -11,5 +11,6 @@ func main() {
 
 	myGreeting["Harleen"] = "Howdy"
 
+	// 맵에 추가된 데이터의 개수 출력
 	fmt.Println(len(myGreeting))
 }

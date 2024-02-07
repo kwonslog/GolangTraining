@@ -16,7 +16,10 @@ func main() {
 
 	// scan the page
 	scanner := bufio.NewScanner(res.Body)
+
+	// 꼭 close 해주자.
 	defer res.Body.Close()
+
 	// Set the split function for the scanning operation.
 	scanner.Split(bufio.ScanWords)
 	// Create slice to hold counts

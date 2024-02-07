@@ -19,7 +19,7 @@ func main() {
 		fmt.Println("exists: ", exists)
 	} else {
 		fmt.Println("That value doesn't exist.")
-		fmt.Println("val: ", val)
+		fmt.Println("val: ", val) // 기본값 빈문자열 출력
 		fmt.Println("exists: ", exists)
 	}
 
